@@ -1,0 +1,28 @@
+{
+  "name": "taskify",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <h1>Welcome to Codeaon 👋💻</h1>\r   <h3>Live Website for Codeaon : <a href=\"#\">Click Here!</a></h3>\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSCKGEC/Taskify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSCKGEC/Taskify/issues"
+  },
+  "homepage": "https://github.com/DSCKGEC/Taskify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
