@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-main-bg: #fff;
+  --clr-text: #000;
+  --clr-medium-light: #686868;
+  --clr-accent-light: #9900f8;
+  --clr-accent: #7d00c9;
+  --clr-underline: #83a4ff;
+  --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --gen-padding: 24px 40px;
+
+  --gen-transition: 0.2s ease-in-out;
+}
+
+.footer-container {
+  background-color: #eaf6f6;
+  border: 2px;
+  padding-top: 50px;
+}
+
+.footer-container ul {
+  list-style-type: none;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-left-column {
+  width: 400px;
+}
+
+.footer-right-column {
+  display: flex;
+  justify-content: space-between;
+  right: 370px;
+  width: 500px;
+}
+
+.footer-image {
+  height: 25px;
+  margin: 16px 10px;
+  border-radius: 50%;
+}
+
+.footer-left-column ul {
+  display: flex;
+}
+
+.footer-right-column ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-heading {
+  margin-bottom: 24px;
+}
+
+.footer-column ul li {
+  padding-bottom: 16px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-image:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 24px;
+}
+
+.footer-copyright ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-copyright ul li {
+  padding: 0 10px;
+}
+
+.footer-copyright ul li a {
+  text-decoration: none;
+}
+
+.footer-copyright ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-taskify-inc {
+  padding: 0 30px;
+}

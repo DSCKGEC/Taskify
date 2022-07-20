@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --clr-main-bg: #fff;
+  --clr-text: #000;
+  --clr-medium-light: #686868;
+  --clr-accent-light: #9900f8;
+  --clr-accent: #7d00c9;
+  --clr-underline: #83a4ff;
+  --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-hero-head: 1.5rem;
+  --fs-hero-desc: 1.2rem;
+
+  --gen-padding: 24px 40px;
+
+  --gen-transition: 0.2s ease-in-out;
+}
+
+.hero-container {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px, 0;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom, #eeeeee, white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero-heading {
+  margin-bottom: 2rem;
+  font-family: "Merriweather", serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-hero-head);
+  float: left;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.hero-desc {
+  margin-bottom: 2rem;
+
+  font-size: var(--fs-hero-desc);
+}
+
+.hero-col-text {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 8%;
+  margin-top: 7%;
+}
+.hero-col-text h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.hero-col-text p {
+  color: #555;
+  line-height: 22px;
+}
+
+.hero-col-img {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.hero-image {
+  margin-top: 100px;
+  height: 450px;
+  width: 640px;
+  padding: 0 24px;
+  border-radius: 50%;
+}
+
+.hero-btn {
+  background: #3cb0fd;
+
+  border-radius: 4px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 150px;
+}
+
+.hero-btn:hover {
+  background: #3498db;
+}
+
+.hero-input-email {
+  height: 2rem;
+  width: 25rem;
+  margin-bottom: 20px;
+  padding: 27px 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hero-input-email:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

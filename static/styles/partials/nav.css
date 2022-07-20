@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --clr-main-bg: #fff;
+  --clr-text: #000;
+  --clr-medium-light: #686868;
+  --clr-medium-light: rgb(220, 220, 220);
+  --clr-accent-light: #9900f8;
+
+  --clr-accent: #25aedc;
+  --clr-accent-dark: #1286ad;
+  --clr-underline: #83a4ff;
+  --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --btn-padding: 10px 20px;
+  --gen-padding: 24px 40px;
+  --gen-transition: 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: 16px;
+  background-color: var(--clr-main-bg);
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+  background-color: var(--clr-main-bg);
+  width: 100%;
+}
+.navbar-container {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--gen-padding);
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  margin: 2px;
+}
+.logo {
+  width: 50px;
+}
+.nav-title {
+  font-weight: var(--fw-regular);
+
+  font-size: 28px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+.nav-items li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-items li a {
+  transition: 0.3s all ease 0s;
+  color: var(--clr-text);
+}
+.nav-items li a:hover {
+  background-color: gainsboro;
+  padding: var(--btn-padding);
+  border-radius: 5px;
+}
+.nav-buttons {
+  display: flex;
+  gap: 24px;
+}
+.nav-btn {
+  cursor: pointer;
+  color: var(--clr-main-bg);
+  font-size: 16px;
+  padding: var(--btn-padding);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.btn1 {
+  background-color: var(--clr-accent);
+}
+.btn2 {
+  color: var(--clr-text);
+  background-color: var(--clr-medium-light);
+}
+.btn2:hover {
+  transition: var(--gen-transition);
+  background-color: var(--clr-medium-light);
+  padding: var(--btn-padding);
+  background-color: rgb(195, 194, 194);
+}
+
+.btn1:hover {
+  transition: var(--gen-transition);
+  background-color: var(--clr-accent-dark);
+  padding: var(--btn-padding);
+}
