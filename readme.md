@@ -1,28 +1,31 @@
 
+
 <div align="center">
-  <h1>Welcome to Codeaon 👋💻</h1>
-  <h3>Live Website for Codeaon : <a href="#">Click Here!</a></h3>
+  <h1>Welcome to Taskify 👋💻</h1>
+  <h3>Live Website for Taskify : <a href="#">Click Here!</a></h3>
 </div>
 
 <br>
 
 <p align="center">
-<a href="https://github.com/soujo"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
-<a href="https://github.com/soujo"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
-<a href="https://github.com/soujo"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
-<a href="https://github.com/soujo/codeaon/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/soujo/codeaon"></a>
-<a href="https://github.com/soujo"><img src="https://img.shields.io/maintenance/yes/2022"></a>
+<a href="https://github.com/DSCKGEC/Taskify"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
+<a href="https://github.com/DSCKGEC/Taskify"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
+<a href="https://github.com/DSCKGEC/Taskify"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
+<a href="https://github.com/DSCKGEC/Taskify/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/sudip-101/Taskify"></a>
+<a href="https://github.com/DSCKGEC/Taskify"><img src="https://img.shields.io/maintenance/yes/2022"></a>
 </p> 
 
 
 ##  Repository
 
-A one-stop website for all developers and coders. This platform helps us to get all Youtube tutorials and articles for a certain topic in one place. This project proves to be a very handy and effective yet resourceful tool for learners.
+<h3> Taskify </h3>
+
+It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter.
 
 
 ##  Join Here
- Join us to come up with a real-time platform to tackle the solution of needs of the individuals who are in situations of struggling to find proper resource to get started with and explore the coding world.
- We are building this app to ensure that no one suffers due to lack of awareness and get the required help when time matters a lot. Lets make this workflow more efficient and valuable to the community for their livelihood. 
+ Join us to come up with a real-time platform to tackle the solution of needs of the individuals who are in situations of struggling with task management.
+ We are building this app to ensure that no one suffers due to lack of awareness and get the required help when time matters a lot. Lets make this workflow more efficient and valuable to the community for their livelihood with taskify. 
 
 
 ##  Tech Stacks
@@ -63,7 +66,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 
 If you want to work on this unique project and share it with the world, you can do that here. 
-Go through the contributing guidelines [here](https://github.com/soujo/codeaon/blob/main/CONTRIBUTING.md).
+Go through the contributing guidelines [here](https://github.com/DSCKGEC/Taskify/blob/main/contributing.md).
 
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
@@ -71,9 +74,9 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 ##  Templates to Follow
 
-- [Feature request](https://github.com/soujo/codeaon/blob/main/.github/issue_templates/feature_request.md)
-- [Bug Report](https://github.com/soujo/codeaon/blob/main/.github/issue_templates/bug_report.md)
-- [Pull Request](https://github.com/soujo/codeaon/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [Feature request](https://github.com/DSCKGEC/Taskify/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+- [Bug Report](https://github.com/DSCKGEC/Taskify/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+- [Pull Request](https://github.com/DSCKGEC/Taskify/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 **Note** : One should follow these templates while creating a new issue or pull request.
 
@@ -121,7 +124,7 @@ Folder structure of this project for your reference
 
 - Then in GitHub, in your cloned repository, find the option to make a pull request. 
 
-**NOTE** : For more details <a href="https://github.com/soujo/codeaon/blob/main/CONTRIBUTING.md">Click Here!</a>
+**NOTE** : For more details <a href="https://github.com/DSCKGEC/Taskify/blob/main/contributing.md">Click Here!</a>
 
 ## Installation
 
@@ -151,7 +154,7 @@ Create a `.env` file then edit it with your settings. You will need:
   
 <br>
 
-> console.log ( " Start contributing for Codeaon " );
+> console.log ( " Start contributing for Taskify " );
 
 
 ## Open Source Programs
@@ -172,8 +175,8 @@ Special thanks goes to all of the mentees who made a choice to make an impact. C
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-<a href="https://github.com/soujo/codeaon/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=soujo/codeaon" />
+<a href="https://github.com/DSCKGEC/Taskify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DSCKGEC/Taskify" />
 </a>
 
 <!-- markdownlint-enable -->
@@ -183,17 +186,18 @@ Special thanks goes to all of the mentees who made a choice to make an impact. C
 
 ##  Code Of Conduct
 
-You can find our Code of Conduct [here](https://github.com/soujo/codeaon/blob/main/CODE_OF_CONDUCT.md).
+You can find our Code of Conduct [here](https://github.com/DSCKGEC/Taskify/blob/main/code_of_conduct.md).
 
 
 ##  License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/soujo/codeaon/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DSCKGEC/Taskify/blob/main/LICENSE) file for details.
 
 
 ##  Project Admin
 
-<a href="https://github.com/soujo">Soujanya Hazra</a>
+<a href="https://github.com/sudip-101">
+Sudip Maiti</a>
 <br>
 
 ##  Give this Project a Star
@@ -203,7 +207,7 @@ If you liked working on this project, do ⭐ and share this repository.
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
 <br>
 
-##  Contact Me
+<!-- ##  Contact Me
 
 If you want to contact me, you can reach me through below handles.
 
@@ -225,4 +229,4 @@ If you want to contact me, you can reach me through below handles.
 © 2022 Soujanya Hazra
 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)  -->
