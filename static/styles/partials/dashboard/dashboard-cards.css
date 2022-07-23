@@ -49,7 +49,8 @@
 
 .dashboard-cards-container{
     width: 75%;
-    margin:5rem 0 0 25%;
+    /* margin:5rem 0 0 0; */
+    margin-left:auto;
     
 }
 
