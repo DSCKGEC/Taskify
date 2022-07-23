@@ -6,27 +6,52 @@
 }
 
 :root {
-    --fs-head: 2.5rem;
-    --fs-normal: 1.5rem;
-    --fs-medium-light: #686868;
-    --color-text: #fff;
-
-    --ff-head:font-family: 'Merriweather', serif;
-
-    --primary-grad: #6f42c1;
-    --secondary-grad: #5427cf;
-
+    --clr-main-bg: #fff;
+    --clr-text: #000;
+    --clr-medium-light: #686868;
+    --clr-accent-light: #9900f8;
+    --clr-accent: #7d00c9;
+    --clr-underline: #83a4ff;
+    --clr-box-shadow: rgba(0, 0, 0, 0.25);
   
+    --ff-header: "Playfair Display", serif;
+    --ff-regular: "Roboto ", sans-serif;
+  
+    --fs-hero-header: 48px;
+    --fs-header: 42px;
+    --fs-sub-header: 22px;
+    --fs-para: 18px;
+    --fs-regular: 14px;
+    --fs-icon: 36px;
+    --fs-small-icon: 24px;
   
     --fw-200: 200;
     --fw-light: 300;
     --fw-regular: 400;
     --fw-bold: 700;
+    --fw-bolder: 900;
   
     --gen-padding: 24px 40px;
   
+    --gen-transition: 0.2s ease-in-out;
+    /* custon variables dashboards-card-section */
     
-  }
+    --fs-head: 2.5rem;
+    --fs-normal: 1.5rem;
+    --clr-card-pri:#e6edefdc;
+    --fs-select:1.15rem;
+    --clr-card-sec:rgb(26, 94, 99);
+    
+
+  
+    
+}
+
+.dashboard-cards-container{
+    width: 75%;
+    margin:5rem 0 0 25%;
+    
+}
 
 .dashboard-head{
     display: flex;
@@ -37,9 +62,7 @@
 
     
 }
-.dashboard-opion{
-    outline: none;
-}
+
 .dashboard-cards-container-list{
     display: flex;
     justify-content: space-between;
@@ -50,7 +73,7 @@
 
 
 .dashboard-card{
-    background-color: #e6edefdc;
+    background-color: var(--clr-card-pri);
     width: 30%;
     border-radius: 12px;
     padding-top: 2rem;
@@ -62,11 +85,11 @@
     font-weight: var(--fw-bold);
     justify-content: center;
     cursor: pointer;
-    color: #000;
+    color: var(--clr-text);
 }
 
 .dashboard-custom-select{
-    font-size:1.15rem;
+    font-size:var(--fs-select);
     padding: 0.5rem;
     border: 2px solid #dddddd;
     cursor: pointer;
@@ -80,8 +103,8 @@
     display: flex;
     justify-content: space-between;
     margin: 0 1.5rem;
-    font-weight: 700;
-    color: #000;
+    font-weight: var(--fw-bold);
+    color:var(--clr-text);
 
 }
 
