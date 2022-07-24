@@ -7,7 +7,11 @@
   --clr-main-bg: #fff;
   --clr-text: #000;
   --clr-medium-light: #686868;
+  /* --clr-medium-light: rgb(220, 220, 220); */
   --clr-accent-light: #9900f8;
+
+  /* --clr-accent: #25aedc;
+  --clr-accent-dark: #1286ad; */
   --clr-accent: #3cb0fd;
   --clr-accent-dark: #3498db;
   --clr-underline: #83a4ff;
@@ -49,6 +53,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--gen-padding);
+  /* z-index: 100; */
 }
 .logo-wrapper {
   display: flex;
@@ -75,12 +80,16 @@ header {
   padding: 0 20px;
 }
 .nav-items li a {
+  /* transition: 0.3s all ease 0s; */
   transition: 0.1s all ease 0s;
   color: var(--clr-text);
 }
 .nav-items li a:hover {
-  border-bottom: 2px solid var(--clr-accent);
-}
+  /* background-color: gainsboro;
+  padding: var(--btn-padding);
+  border-radius: 5px;*/
+   border-bottom: 2px solid var(--clr-accent);
+} 
 .nav-buttons {
   display: flex;
   gap: 24px;
@@ -99,12 +108,15 @@ header {
 }
 .btn2 {
   color: var(--clr-text);
+  /* background-color: var(--clr-medium-light); */
   background-color: rgb(195, 194, 194);
 }
 .btn2:hover {
   transition: var(--gen-transition);
+  /* background-color: var(--clr-medium-light); */
   background-color: rgb(164, 164, 164);
   padding: var(--btn-padding);
+  /* background-color: rgb(195, 194, 194); */
 }
 
 .btn1:hover {

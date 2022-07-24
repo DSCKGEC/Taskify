@@ -4,7 +4,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 :root {
     --clr-main-bg: #fff;
     --clr-text: #000;
@@ -42,16 +41,19 @@
     --fs-select:1.15rem;
     --clr-card-sec:rgb(26, 94, 99);
     
-
   
     
 }
 
 .dashboard-cards-container{
+    position: relative;
+    /* padding-top: 25%; */
     width: 75%;
+    margin:5rem 0 0 25%;
     /* margin:5rem 0 0 0; */
     margin-left:auto;
-    
+    /* border: 2px solid black; */
+
 }
 
 .dashboard-head{
@@ -60,19 +62,13 @@
     text-align: center;
     justify-content: space-between;
     padding: 3rem 5rem;
-
     
 }
-
 .dashboard-cards-container-list{
     display: flex;
     justify-content: space-between;
     margin: 2rem 5rem;
-
 }
-
-
-
 .dashboard-card{
     background-color: var(--clr-card-pri);
     width: 30%;
@@ -88,7 +84,6 @@
     cursor: pointer;
     color: var(--clr-text);
 }
-
 .dashboard-custom-select{
     font-size:var(--fs-select);
     padding: 0.5rem;
@@ -98,28 +93,20 @@
     border-radius: 6px ;
     outline: none;
 }
-
-
 .dashboard-card-head{
     display: flex;
     justify-content: space-between;
     margin: 0 1.5rem;
     font-weight: var(--fw-bold);
     color:var(--clr-text);
-
 }
-
-
-
 .dashboard-task-number{
     color: rgb(26, 94, 99);
     background-color: #9ab9c4;
     width: 30px;
     border-radius: 12px;
     border-top-right-radius: 0;
-
 }
-
 .dashboard-add-button{
     color: rgb(26, 94, 99);
     background-color: #9ab9c4;
@@ -131,17 +118,12 @@
     display: flex;
     font-weight: 700;
     cursor: pointer;
-
 }
-
 .dashboard-task{
     margin: 2rem 1rem;
     background: #fff;
     border-radius: 0.5rem;
 }
-
-
-
 .dashboard-task-head{
     font-weight: var(--fw-bold);
     text-align: left;
@@ -149,9 +131,7 @@
     padding-top: 1rem;
     margin: 2rem 1rem;
     color: #000;
-
 }
-
 .dashboard-task-description{
     padding: 0 1rem 2rem;
     text-align: left;
