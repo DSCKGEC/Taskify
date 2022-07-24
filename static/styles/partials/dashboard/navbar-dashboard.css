@@ -10,6 +10,7 @@
     padding: 40px 60px;
     padding-left: 70px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    /* border: 2px solid purple; */
 }
 
 .dashboard-navbar-dashboard-navbar{
@@ -60,6 +61,7 @@
     background-color: transparent;
     font-size: 1rem;
     padding: 0 12px;
+    
 }
 
 .dashboard-navbar-button-img{

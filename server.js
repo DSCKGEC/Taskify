@@ -12,11 +12,17 @@ app.set('view engine', 'ejs')
 const staticPath = path.join(__dirname, 'static');
 
 app.use(express.static(staticPath))
-app.use('/users', userRoutes)
+// app.use('/user', userRoutes)
+app.use('', userRoutes)
 
 app.get('', function (req, res) {
     res.render("index")
 });
+
+// app.get('', function (req, res) {
+//     res.render("dashboardd")
+// });
+
 app.listen(port, () => {
     console.log(`App listening at port ${port}`)
 })
