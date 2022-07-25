@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <!-- <link rel="stylesheet" href="styles/main.css"/> -->
-    <title>Taskify</title>
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <section class="hero-section section" id="home">
-        <%-include('./partials/hero') %>
-      </section>
-      <section class="section_name" id="section_name_nav_link">
-        <%-include('./partials/nav') %>
-      </section>
 
-      <section class="achievements-section section" id="home">
-        <%-include('./partials/achievements') %>
-      </section>
-    </main>
-    <footer>
-      <section class="footer-section" id="home">
-        <%-include('./partials/footer') %>
-      </section>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="../static/styles/main.css" />
+  <title>Taskify</title>
+</head>
+
+<body>
+
+  <%-include("../views/partials/nav.ejs") %>
+  <%-include("../views/partials/hero.ejs") %>
+  <%-include("../views/partials/feature.ejs") %>
+  <%-include("../views/partials/achievements.ejs") %>
+  <%-include("../views/partials/footer.ejs") %>
+
+
+</body>
+
 </html>

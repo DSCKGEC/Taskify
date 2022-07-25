@@ -1,11 +1,12 @@
 {
   "name": "taskify",
   "version": "1.0.0",
-  "description": "<div align=\"center\">\r   <h1>Welcome to Codeaon 👋💻</h1>\r   <h3>Live Website for Codeaon : <a href=\"#\">Click Here!</a></h3>\r </div>",
+  "description": "Taskify is a task management system for everyone to help you manage your tasks and projects from ideation to delivery.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start":"node src/app.js",
+    "server" : "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1"
   }
