@@ -1,115 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <main>
-      <section class="dashboard-cards-section section">
-        <div class="dashboard-cards-container container">
-          <!-- <div class="dashboard-cards-container"> -->
-          <!-- dashboard container head -->
-          <div class="dashboard-head">
-            <div class="dashboard-project">Projects</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../../../static/styles/partials/dashboard/dashboard-cards.css" />
+  <link rel="stylesheet" href="../../../static/styles/main.css">
 
-            <!-- select menu -->
-            <div class="dashboard-select">
-              <select class="dashboard-custom-select">
-                <option value="dashboard-This Day">This Day</option>
-                <option value="dashboard-This Week">This Week</option>
-                <option value="dashboard-This Month">This Month</option>
-                <option value="dashboard-This Year">This Year</option>
-              </select>
+</head>
+
+<body>
+  <main>
+    <section class="dashboard-cards-section section">
+      <div class="dashboard-cards-container container">
+        <!-- <div class="dashboard-cards-container"> -->
+        <!-- dashboard container head -->
+        <div class="dashboard-head">
+          <div class="dashboard-project">Projects</div>
+
+          <!-- select menu -->
+          <div class="dashboard-select">
+            <select class="dashboard-custom-select">
+              <option value="dashboard-This Day">This Day</option>
+              <option value="dashboard-This Week">This Week</option>
+              <option value="dashboard-This Month">This Month</option>
+              <option value="dashboard-This Year">This Year</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- dashboard cards section -->
+        <div class="dashboard-cards-container-list">
+          <!-- Card-1 -->
+          <div class="dashboard-card card-1">
+            <!-- card head -->
+            <div class="dashboard-card-head">
+              <div class="dashboard-card-topic">To do</div>
+              <div class="dashboard-task-number">0</div>
+            </div>
+            <!-- Add task option -->
+            <div class="dashboard-add-button">+</div>
+            <!-- Card body -->
+            <div class="dashboard-card-body">
+              <!-- tasks -->
+              <div class="dashboard-task task-1">
+                <div class="dashboard-task-head">
+                  Lorem ipsum dolor sit amet.
+                </div>
+                <div class="dashboard-task-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nulla pariatur modi quia praesentium molestias ullam.
+                </div>
+              </div>
+              <div class="dashboard-task task-2">
+                <div class="dashboard-task-head">
+                  Lorem ipsum dolor sit amet.
+                </div>
+                <div class="dashboard-task-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nulla pariatur modi quia praesentium molestias ullam.
+                </div>
+              </div>
             </div>
           </div>
-
-          <!-- dashboard cards section -->
-          <div class="dashboard-cards-container-list">
-            <!-- Card-1 -->
-            <div class="dashboard-card card-1">
-              <!-- card head -->
-              <div class="dashboard-card-head">
-                <div class="dashboard-card-topic">To do</div>
-                <div class="dashboard-task-number">0</div>
-              </div>
-              <!-- Add task option -->
-              <div class="dashboard-add-button">+</div>
-              <!-- Card body -->
-              <div class="dashboard-card-body">
-                <!-- tasks -->
-                <div class="dashboard-task task-1">
-                  <div class="dashboard-task-head">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <div class="dashboard-task-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur modi quia praesentium molestias ullam.
-                  </div>
+          <!-- Card-2 -->
+          <div class="dashboard-card card-2">
+            <!-- card head -->
+            <div class="dashboard-card-head">
+              <div class="dashboard-card-topic">In progress</div>
+              <div class="dashboard-task-number">0</div>
+            </div>
+            <!-- Add task option -->
+            <div class="dashboard-add-button">+</div>
+            <!-- Card body -->
+            <div class="dashboard-card-body">
+              <!-- tasks -->
+              <div class="dashboard-task task-1">
+                <div class="dashboard-task-head">
+                  Lorem ipsum dolor sit amet.
                 </div>
-                <div class="dashboard-task task-2">
-                  <div class="dashboard-task-head">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <div class="dashboard-task-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur modi quia praesentium molestias ullam.
-                  </div>
+                <div class="dashboard-task-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nulla pariatur modi quia praesentium molestias ullam.
                 </div>
               </div>
             </div>
-            <!-- Card-2 -->
-            <div class="dashboard-card card-2">
-              <!-- card head -->
-              <div class="dashboard-card-head">
-                <div class="dashboard-card-topic">In progress</div>
-                <div class="dashboard-task-number">0</div>
-              </div>
-              <!-- Add task option -->
-              <div class="dashboard-add-button">+</div>
-              <!-- Card body -->
-              <div class="dashboard-card-body">
-                <!-- tasks -->
-                <div class="dashboard-task task-1">
-                  <div class="dashboard-task-head">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <div class="dashboard-task-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur modi quia praesentium molestias ullam.
-                  </div>
-                </div>
-              </div>
+          </div>
+          <!-- Card-3 -->
+          <div class="dashboard-card card-3">
+            <!-- card head -->
+            <div class="dashboard-card-head">
+              <div class="dashboard-card-topic">Completed</div>
+              <div class="task-number">0</div>
             </div>
-            <!-- Card-3 -->
-            <div class="dashboard-card card-3">
-              <!-- card head -->
-              <div class="dashboard-card-head">
-                <div class="dashboard-card-topic">Completed</div>
-                <div class="task-number">0</div>
-              </div>
-              <!-- Add task option -->
-              <div class="dashboard-add-button">+</div>
-              <!-- Card body -->
-              <div class="dashboard-card-body">
-                <!-- tasks -->
-                <div class="dashboard-task task-1">
-                  <div class="dashboard-task-head">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <div class="dashboard-task-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla pariatur modi quia praesentium molestias ullam.
-                  </div>
+            <!-- Add task option -->
+            <div class="dashboard-add-button">+</div>
+            <!-- Card body -->
+            <div class="dashboard-card-body">
+              <!-- tasks -->
+              <div class="dashboard-task task-1">
+                <div class="dashboard-task-head">
+                  Lorem ipsum dolor sit amet.
+                </div>
+                <div class="dashboard-task-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nulla pariatur modi quia praesentium molestias ullam.
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="../../static/styles/main.css" />
+  <link rel="stylesheet" href="../../static/styles/dashboard/dashboard.css">
+
+<body>
+  <!-- The main dashboard is here  -->
+
+  <div class="dashboard-content-container">
+    <div class="dashboard-sidebar-container">
+      <%-include("../partials/dashboard/dashboard-sidebar.ejs") %>
+    </div>
+    <div class="dashboard-nav-cards-section">
+      <%-include("../partials/dashboard/navbar-dashboard.ejs") %>
+      <%-include("../partials/dashboard/dashboard-cards.ejs") %>
+    </div>
+  </div>
+
+</body>
+
 </html>
