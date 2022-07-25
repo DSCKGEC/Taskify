@@ -1,52 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
+.achievements-left {
+  width: 270px;
+  margin: 20px 0;
+  margin-left: 150px;
 }
 
-.achievements-left{
-    width: 270px;
-    margin: 20px 0;
-    margin-left: 150px;
+.achievements-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
 }
 
-.achievements-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px 0;
+.achievements-secondary-heading {
+  margin-bottom: 16px;
+  font-weight: var(--fw-bold);
 }
 
-.achievements-secondary-heading{
-    margin-bottom: 16px;
-    font-weight: var(--fw-bold);
+.achievements-right {
+  display: flex;
+  margin: 20px 0;
+  margin-right: 150px;
 }
 
-.achievements-right{
-    display: flex;
-    margin: 20px 0;
-    margin-right: 150px;
+.achievements-achievement-card {
+  text-align: center;
+  padding: 0 20px;
 }
 
-.achievements-achievement-card{
-    text-align: center;
-    padding: 0 20px;
+.achievements-achievement-img {
+  height: 100px;
+  margin-bottom: 16px;
 }
 
-.achievements-achievement-img{
-    height: 100px;
-    margin-bottom: 16px;
+.achievements-achievement-heading {
+  margin-bottom: 6px;
 }
 
-.achievements-achievement-heading{
-    margin-bottom: 6px;
+.achievements-left p a {
+  color: var(--clr-accent-light);
+  text-decoration: none;
+  display: inline-block;
 }
 
-.achievements-left p a{
-    color: var(--clr-accent-light);
-    text-decoration: none;
-    display: inline-block;
-}
-
-.achievements-left p a:hover{
-    text-decoration: underline;
+.achievements-left p a:hover {
+  text-decoration: underline;
 }

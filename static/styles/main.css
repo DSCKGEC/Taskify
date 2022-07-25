@@ -5,11 +5,14 @@
 :root {
   --clr-main-bg: #fff;
   --clr-text: #000;
-  --clr-medium-light: #686868;
-  --clr-accent-light: #9900f8;
-  --clr-accent: #7d00c9;
+  --clr-medium-light: rgba(0, 0, 0, 0.6);
+  --clr-accent-light: #3bc2e4;
+  --clr-accent: #0ca6ec;
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --clr-black-75: rgba(0, 0, 0, 0.75);
+  --clr-black-50: rgba(0, 0, 0, 0.5);
 
   --fw-200: 200;
   --fw-light: 300;
@@ -91,9 +94,15 @@ body.dark-theme {
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: var(--clr-medium-light);
+  color: var(--clr-text);
   font-size: 16px;
   background-color: var(--clr-main-bg);
   position: relative;
   z-index: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: var(--gen-padding);
 }

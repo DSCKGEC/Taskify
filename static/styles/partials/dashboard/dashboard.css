@@ -1,0 +1,9 @@
+.dashboard-main-wrapper {
+  display: flex;
+}
+.section-col-15 {
+  width: 20%;
+}
+.section-col-85 {
+  width: 80%;
+}

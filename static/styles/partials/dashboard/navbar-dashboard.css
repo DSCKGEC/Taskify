@@ -1,76 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
+.dashboard-navbar-container {
+  /* position: absolute;
+  right: 0; */
+  padding: 24px 40px;
+  padding-left: 70px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  /* border: 2px solid purple; */
 }
 
-.dashboard-navbar-container{
-    width: 75%;
-    position: absolute;
-    right: 0;
-    padding: 40px 60px;
-    padding-left: 70px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    /* border: 2px solid purple; */
+.dashboard-navbar-dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.dashboard-navbar-dashboard-navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.dashboard-navbar-dashboard-navbar-links {
+  display: flex;
+  align-items: center;
 }
 
-.dashboard-navbar-dashboard-navbar-links{
-    display: flex;
-    align-items: center;
+.dashboard-navbar-dashboard-navbar-links li {
+  margin: 0 10px;
 }
 
-.dashboard-navbar-dashboard-navbar-links li{
-    margin: 0 10px;
+.dashboard-navbar-link-img {
+  width: 35px;
 }
 
-.dashboard-navbar-link-img{
-    height: 25px;
-    border-radius: 50%;
+.dashboard-navbar-bell-icon {
+  height: 29.5px;
 }
 
-.dashboard-navbar-bell-icon{
-    height: 29.5px;
+/* .dashboard-navbar-profile-icon {
+  height: 40px;
+  margin-left: 10px;
+} */
+
+/* .dashboard-navbar-link-img:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+} */
+
+.dashboard-navbar-search-bar {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 60px;
+  padding: 10px 20px;
 }
 
-.dashboard-navbar-profile-icon{
-    height: 40px;
-    margin-left: 10px;
+.dashboard-navbar-search-bar input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0 12px;
 }
 
-.dashboard-navbar-link-img:hover{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.dashboard-navbar-button-img {
+  height: 25px;
 }
 
-.dashboard-navbar-search-bar{
-    width: 400px;
-    display: flex;
-    align-items: center;
-    background-color: #F9F9F9;
-    border-radius: 60px;
-    padding: 10px 20px;
-}
-
-.dashboard-navbar-search-bar input{
-    width: 100%;
-    border: 0;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 0 12px;
-    
-}
-
-.dashboard-navbar-button-img{
-    height: 25px;
-}
-
-.dashboard-navbar-search-bar button{
-    border-radius: 50%;
-    background-color: #E0DECA;
-    height: 40px;
-    width: 45px;
+.dashboard-navbar-search-bar button {
+  border-radius: 50%;
+  background-color: #e0deca;
+  height: 40px;
+  width: 45px;
 }

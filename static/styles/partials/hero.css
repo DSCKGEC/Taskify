@@ -1,41 +1,39 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 :root {
   --clr-main-bg: #fff;
+  --clr-light-white: #f0f0f0;
+  --clr-lightgrey: #d3d3d3;
+  --clr-grey: rgb(177, 177, 177);
   --clr-text: #000;
-  --clr-medium-light: #686868;
-  --clr-accent-light: #9900f8;
-  /* --clr-accent: #7d00c9;
-  --clr-underline: #83a4ff; */
-  --clr-accent: #3cb0fd;
-  --clr-accent-dark: #3498db;
+  --clr-medium-light: rgba(0, 0, 0, 0.6);
+  --clr-accent-light: #3bc2e4;
+  --clr-accent: #0ca6ec;
+  --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --clr-black-75: rgba(0, 0, 0, 0.75);
+  --clr-black-50: rgba(0, 0, 0, 0.5);
 
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
 
-  --fs-hero-head: 1.5rem;
-  --fs-hero-desc: 1.2rem;
-
+  --btn-padding: 8px 16px;
   --gen-padding: 24px 40px;
 
   --gen-transition: 0.2s ease-in-out;
 }
 
+/* .hero-section {
+  background-image: linear-gradient(to bottom, #eeeeee, white);
+} */
+
 .hero-container {
-  padding-top: 6rem;
+  padding-block: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px, 0;
   flex-direction: row;
-  background-image: linear-gradient(to bottom, #eeeeee, white);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes slideInFromLeft {
@@ -49,7 +47,6 @@
 
 .hero-heading {
   margin-bottom: 2rem;
-  font-family: "Merriweather", serif;
   font-weight: var(--fw-bold);
   font-size: var(--fs-hero-head);
   float: left;
