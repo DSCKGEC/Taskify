@@ -1,10 +1,15 @@
 .dashboard-navbar-container {
-  /* position: absolute;
-  right: 0; */
+  position: fixed ;
+  width: 80%;
+  /* right: 0; */
   padding: 24px 40px;
   padding-left: 70px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-left: 13px;
+  background-color: white;
+  border-radius:30px;
+  /* position: sticky; */
   /* border: 2px solid purple; */
+  z-index: 1000;
 }
 
 .dashboard-navbar-dashboard-navbar {
@@ -15,21 +20,63 @@
 
 .dashboard-navbar-dashboard-navbar-links {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .dashboard-navbar-dashboard-navbar-links li {
   margin: 0 10px;
 }
-
+.dashboard-navbar-dashboard-navbar-links li a {
+    font-size:30px;
+}
 .dashboard-navbar-link-img {
   width: 35px;
 }
 
 .dashboard-navbar-bell-icon {
-  height: 29.5px;
+  height: 35px;
 }
 
+.dashboard-navbar-dropbtn {
+  background-color: rgb(247, 244, 244);
+  color: black;
+  border-radius:10px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-navbar-dropbtn i {
+  padding-left: 3px;
+}
+.dashboard-navbar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dashboard-navbar-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  border-radius:5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dashboard-navbar-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dashboard-navbar-dropdown a:hover {background-color: #ddd;}
+
+.dashboard-navbar-show {display: block;}
 /* .dashboard-navbar-profile-icon {
   height: 40px;
   margin-left: 10px;
@@ -41,10 +88,10 @@
 } */
 
 .dashboard-navbar-search-bar {
-  width: 400px;
+  width: 500px;
   display: flex;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #f5f4f4;
   border-radius: 60px;
   padding: 10px 20px;
 }
@@ -52,7 +99,7 @@
 .dashboard-navbar-search-bar input {
   width: 100%;
   border: 0;
-  background-color: transparent;
+  background:transparent;
   font-size: 1rem;
   padding: 0 12px;
 }
@@ -62,8 +109,9 @@
 }
 
 .dashboard-navbar-search-bar button {
-  border-radius: 50%;
-  background-color: #e0deca;
   height: 40px;
+  background:transparent;
+  font-size:25px;
   width: 45px;
 }
+

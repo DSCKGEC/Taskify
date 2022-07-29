@@ -16,31 +16,59 @@
   <header class="dashboard-header-navbar">
     <div class="dashboard-navbar-container">
       <nav class="dashboard-navbar-dashboard-navbar">
-        <form action="#" class="dashboard-navbar-search-bar">
-          <input type="text" placeholder="search" />
-          <button type="submit">
-            <img class="dashboard-navbar-button-img" src="../../../static/assets/dashboard/search.png" alt="search" />
-          </button>
-        </form>
+          <form action="#" class="dashboard-navbar-search-bar">
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+            <input type="text" placeholder="Search" />
+          </form>
         <div class="dashboard-navbar-dashboard-links">
           <ul class="dashboard-navbar-dashboard-navbar-links">
             <li>
-              <a href="#"><img class="dashboard-navbar-link-img" src="../../../static/assets/dashboard/question-mark.png"
-                  alt="question-mark" /></a>
+              <a href="#"><i class="fa-regular fa-circle-question"></i></a>
             </li>
             <li>
-              <a href="#"><img class="dashboard-navbar-link-img dashboard-navbar-bell-icon"
-                  src="../../../static/assets/dashboard/bell-icon.png" alt="bell-icon" /></a>
+              <a href="#" class="dashboard-navbar-bell-icon"><i class="far fa-bell"></i></a>
             </li>
             <li>
-              <a href="#"><img class="dashboard-navbar-link-img dashboard-navbar-profile-icon"
-                  src="../../../static/assets/dashboard/profile-icon.png" alt="profile-icon" /></a>
+              <div class="dashboard-navbar-dropdown">
+                <button onclick="myFunction()" class="dashboard-navbar-dropbtn">Lord Voldemort <i class="fa-solid fa-chevron-down"></i></button>
+                
+                <div id="dashboard-navbar-myDropdown" class="dashboard-navbar-dropdown-content">
+                  <a href="#" style="font-size: 16px;">Profile</a>
+                  <a href="#" style="font-size: 16px;">Log Out</a>
+                </div>
+              </div>
             </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-user dashboard-navbar-link-img dashboard-navbar-profile-icon"></i></a>
+            </li>
+            
           </ul>
         </div>
       </nav>
     </div>
   </header>
 </body>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("dashboard-navbar-myDropdown").classList.toggle("dashboard-navbar-show");
+}
 
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dashboard-navbar-dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dashboard-navbar-dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('dashboard-navbar-show')) {
+        openDropdown.classList.remove('dashboard-navbar-show');
+      }
+    }
+  }
+}
+</script>
 </html>
