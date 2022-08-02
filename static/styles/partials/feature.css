@@ -25,6 +25,7 @@
 .feature-heading {
   margin-bottom: 16px;
   font-weight: var(--fw-bold);
+
 }
 
 .feature-features a {
@@ -43,16 +44,16 @@
 
 .feature-btn {
   border-radius: 4px;
-  font-family: Arial;
+  font-family: "Lato", sans-serif;
   color: #ffffff;
-  font-size: 15px;
-  background: #3cbdf0;
+  font-size: 18px;
+  background: #9900f8;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   max-width: max-content;
 }
 
 .feature-btn:hover {
-  background: #049dd4;
+  background: #7d00c9;
   text-decoration: none;
 }

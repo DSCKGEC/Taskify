@@ -63,7 +63,10 @@
   position: relative;
   margin-left: 8%;
   margin-top: 7%;
+  font-family: "Lato", sans-serif;
+  
 }
+
 .hero-col-text h1 {
   font-size: 50px;
   color: #212121;
@@ -89,12 +92,12 @@
 }
 
 .hero-btn {
-  background: #3cb0fd;
+  background: #9900f8;
 
   border-radius: 4px;
-  font-family: Arial;
+  font-family: "Lato", sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -102,7 +105,7 @@
 }
 
 .hero-btn:hover {
-  background: #3498db;
+  background: #7d00c9;
 }
 
 .hero-input-email {
@@ -114,10 +117,10 @@
   border: 1px solid lightgrey;
   font-size: 16px;
   transition: all 0.3s ease;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
 }
 
 .hero-input-email:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 30px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
