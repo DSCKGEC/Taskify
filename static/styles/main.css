@@ -93,7 +93,7 @@ body.dark-theme {
 } */
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: var(--clr-text);
   font-size: 18px;
   background-color: var(--clr-main-bg);

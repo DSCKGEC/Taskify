@@ -63,7 +63,7 @@
   position: relative;
   margin-left: 8%;
   margin-top: 7%;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   
 }
 
@@ -95,7 +95,7 @@
   background: #9900f8;
 
   border-radius: 4px;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   color: #fff;
   font-size: 18px;
   padding: 10px 20px 10px 20px;
