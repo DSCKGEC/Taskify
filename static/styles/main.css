@@ -43,7 +43,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0089ff;
+  background: #9900f8;
   border-radius: 6px;
 }
 
@@ -93,9 +93,9 @@ body.dark-theme {
 } */
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: var(--clr-text);
-  font-size: 16px;
+  font-size: 18px;
   background-color: var(--clr-main-bg);
   position: relative;
   z-index: 0;

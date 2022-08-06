@@ -51,7 +51,7 @@ header {
   margin: 2px;
 }
 .logo {
-  width: 50px;
+  width: 25px;
 }
 .nav-title {
   font-weight: var(--fw-regular);
@@ -77,7 +77,7 @@ header {
   /* background-color: gainsboro;
   padding: var(--btn-padding);
   border-radius: 5px;*/
-  border-bottom: 2px solid var(--clr-accent);
+  border-bottom: 2px solid #9900f8;
 }
 .nav-buttons {
   display: flex;
@@ -86,14 +86,14 @@ header {
 .nav-btn {
   cursor: pointer;
   color: var(--clr-main-bg);
-  font-size: 16px;
+  font-size: 18px;
   padding: var(--btn-padding);
   border-radius: 4px;
   white-space: nowrap;
 }
 
 .btn1 {
-  background-color: var(--clr-accent);
+  background-color: #9900f8;
 }
 .btn2 {
   color: var(--clr-text);
