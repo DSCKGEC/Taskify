@@ -5,7 +5,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff);
 }
 .main{
