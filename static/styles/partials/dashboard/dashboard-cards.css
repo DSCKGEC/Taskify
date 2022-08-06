@@ -42,9 +42,16 @@
   --clr-card-sec: rgb(26, 94, 99);
 }
 
+.dashboard-cards-section{
+  margin-top: 150px;
+  width: 100%;
+  z-index: -1;
+}
+
 .dashboard-cards-container {
   position: relative;
   /* padding-top: 25%; */
+  width: 100%;
   max-width: 100%;
   padding: var(--gen-padding);
   /* margin:5rem 0 0 0; */
