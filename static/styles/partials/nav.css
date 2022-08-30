@@ -58,7 +58,7 @@ header {
   margin-top: 0px;
 }
 .logo-wrapper .nav-title{
-  margin-top: 8px;
+  margin-left: 5px;
 }
 .logo {
   width: 30px;
@@ -78,7 +78,7 @@ a .nav-title:hover {
   align-items: center;
   gap: 16px;
   list-style: none;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 .nav-items li {
   display: inline-block;
@@ -109,6 +109,7 @@ a .nav-title:hover {
   padding: var(--btn-padding);
   border-radius: 4px;
   white-space: nowrap;
+  transition:all 0.2s ease-in-out;
 }
 .nav-btn a:hover{
   text-decoration: none;
@@ -119,11 +120,17 @@ a .nav-title:hover {
 .btn1 {
   background-color: #9900f8;
   text-decoration: none;
-  color: var(--clr-light-white);
 }
 .btn2 {
-  color: var(--clr-light-white);
+  color: var(--clr-main-bg);
   background-color: var(--clr-lightgrey);
   text-decoration: none;
 }
-
+.btn1:hover {
+  color: var(--clr-light-white);
+  background: #7d00c9;
+}
+.btn2:hover {
+  color: var(--clr-light-white);
+  background-color: var(--clr-grey);
+}
