@@ -92,9 +92,9 @@
   text-decoration: none;
 }
 
-/* .footer-column ul li a:hover {
-  text-decoration: underline;
-} */
+.footer-column ul li a:hover {
+  color: var(--clr-grey);
+}
 
 .footer-image:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
