@@ -19,7 +19,8 @@
   --fw-bold: 700;
 
   --btn-padding: 8px 16px;
-  --gen-padding: 24px 40px;
+  /* --gen-padding: 24px 40px; */
+  --gen-padding: 24px 24px;
 
   --gen-transition: 0.2s ease-in-out;
 }
@@ -38,8 +39,11 @@ header {
 }
 .navbar-container {
   margin: auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   display: flex;
+  max-width: 100%;
+  margin-left: 24px;
+  margin-right: 24px;
   gap: 40px;
   justify-content: space-between;
   align-items: center;
@@ -50,19 +54,31 @@ header {
   cursor: pointer;
   margin: 2px;
 }
+.logo-wrapper .logo{
+  margin-top: 0px;
+}
+.logo-wrapper .nav-title{
+  margin-top: 8px;
+}
 .logo {
-  width: 25px;
+  width: 30px;
 }
 .nav-title {
-  font-weight: var(--fw-regular);
-
+  font-weight: var(--fw-bold);
+  /* font-weight: var(--fw-regular);  */
   font-size: 28px;
+  text-decoration: none;
+}
+a .nav-title:hover {
+  color: var(--clr-text);
+  text-decoration: none;
 }
 .nav-items {
   display: flex;
   align-items: center;
   gap: 16px;
   list-style: none;
+  margin-top: 16px;
 }
 .nav-items li {
   display: inline-block;
@@ -77,7 +93,10 @@ header {
   /* background-color: gainsboro;
   padding: var(--btn-padding);
   border-radius: 5px;*/
+  text-decoration: none;
+
   border-bottom: 2px solid #9900f8;
+
 }
 .nav-buttons {
   display: flex;
@@ -91,11 +110,20 @@ header {
   border-radius: 4px;
   white-space: nowrap;
 }
+.nav-btn a:hover{
+  text-decoration: none;
+  color: var(--clr-light-white);
+  cursor: pointer;
+}
 
 .btn1 {
   background-color: #9900f8;
+  text-decoration: none;
+  color: var(--clr-light-white);
 }
 .btn2 {
-  color: var(--clr-text);
+  color: var(--clr-light-white);
   background-color: var(--clr-lightgrey);
+  text-decoration: none;
 }
+
