@@ -1,47 +1,48 @@
 .achievements-left {
-  width: 270px;
-  margin: 20px 0;
-  margin-left: 150px;
+  /* width: 500px; */
+  /* margin: 20px 0; */
+  /* margin-left: 150px; */
+  /* border: 2px solid brown; */
+  flex: 0 0.25 30%;
+  max-width: 30%;
+  margin: 24px;
+  
 }
-
 .achievements-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px 0;
+  margin: 24px ;
+  padding-right: 24px;
+  padding-left: 48px;
+  /* margin-left: 72px; */
+  /* border: 2px solid black; */
 }
-
 .achievements-secondary-heading {
   margin-bottom: 16px;
   font-weight: var(--fw-bold);
 }
-
 .achievements-right {
   display: flex;
-  margin: 20px 0;
-  margin-right: 150px;
+  margin: 24px 0;
+  /* margin-right: 150px; */
+  flex: 0 0 80%;
+  max-width: 80%;
+  padding-right: 50px;
 }
-
 .achievements-achievement-card {
   text-align: center;
   padding: 0 20px;
 }
-
 .achievements-achievement-img {
-  height: 100px;
+  height: 125px;
   margin-bottom: 16px;
 }
-
 .achievements-achievement-heading {
   margin-bottom: 6px;
 }
-
 .achievements-left p a {
   color: #9900f8;
   text-decoration: none;
   display: inline-block;
-}
-
-.achievements-left p a:hover {
-  text-decoration: underline;
 }
