@@ -68,10 +68,10 @@
 }
 
 .feature-btn {
-  border-radius: 4px;
+  border-radius: 10px;
   color: #ffffff;
   font-size: 18px;
-  background: #9900f8;
+  background: #990f97;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   max-width: max-content;
@@ -79,6 +79,4 @@
 
 .feature-btn:hover {
   background: #7d00c9;
-  /* text-decoration: none;
-  color: #ffffff; */
 } 
